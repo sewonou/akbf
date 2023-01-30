@@ -1,0 +1,44 @@
+nav{
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    padding: 5px 0px 5px 30px;
+    border-radius: 0px;
+}
+
+nav .navbar-brand{
+    color: rgb(112, 13, 224);
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin: 0 50px 0 0;
+}
+
+nav .logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+nav a.nav-link {
+    color: #212121;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-right: 10px;
+}
+
+nav a{
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color: rgb(112, 13, 224);
+    transition: .2s ease-in-out;
+    font-weight: bolder;
+}
+
+nav a .first{
+    background-color: rgb(112, 13, 224);
+    color: #fff !important;
+}
