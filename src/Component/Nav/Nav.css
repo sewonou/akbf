@@ -38,7 +38,7 @@ nav a:hover{
     font-weight: bolder;
 }
 
-nav a .first{
+nav a.first{
     background-color: rgb(112, 13, 224);
     color: #fff !important;
 }

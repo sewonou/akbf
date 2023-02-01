@@ -3,9 +3,12 @@
     width: 100%;
     max-width: 100%;
     height: auto;
-    padding: 25px 0px;
     text-align: center;
     overflow: hidden;
+}
+
+.services .row{
+    margin: 35px 0;
 }
 
 .services h2{
@@ -35,6 +38,7 @@
 
 .services .box svg{
     color: #fb3e3e;
+
 }
 
 .services .box h3{
@@ -49,4 +53,79 @@
     color: #777;
     font-size: .9rem;
     margin: 15px 0px ;
+}
+
+.services .box:hover svg{
+    background-color: #fb3e3e;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 10px;
+    transition: .3s ease-in;
+}
+
+.services .last{
+    margin-top: 70px;
+    text-align: left;
+}
+
+.services .last h3{
+    color: #212121;
+    font-size: 3rem  ;
+    font-weight: bold;
+    margin-top: 70px;
+    line-height: 50px;
+    letter-spacing: 2px;
+    width: 60%;
+    text-transform: capitalize;
+
+}
+
+.services .last p{
+    color: #777;
+    font-size: 1.2rem;
+    width: 100% ;
+    margin: 15px 0;
+    letter-spacing: 1px;
+}
+
+.services .last ul{
+    padding: 0;
+    margin: 20px;
+}
+
+.services .last ul li {
+    list-style-type: disc;
+    margin: 10px 0;
+    color: #333;
+    font-size: .9rem;
+}
+
+.services .last .button{
+    background-color: #fb3e3e;
+    border: 1px solid #fb3e3e;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 4px 0;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+.services .last .button:hover{
+    background-color: #fb5e4e;
+    width: 140px;
+    height: 40px;
+    transition: .3s ease-in;
+    text-align: center;
+    color: #777777;
+    box-shadow: #777777;
 }

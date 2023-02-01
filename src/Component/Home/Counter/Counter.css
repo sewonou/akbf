@@ -1,0 +1,27 @@
+
+.counters {
+    background: none;
+    color: #212121;
+    padding: 40px 20px;
+}
+
+.counters .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    text-align: center;
+}
+
+.counters i {
+    color: #fb3e3e;
+    margin-bottom: 5px;
+}
+
+.counters .counter {
+    font-size: 5rem;
+    margin: 10px 0;
+}
+
+.counters .container h3	{
+    font-size: 2rem;
+}

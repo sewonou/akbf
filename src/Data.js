@@ -42,6 +42,32 @@ const Data = {
             title: 'Other financial consulting and advisory related services',
             text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, laborum.'
         },
+    ],
+    pricing : [
+        {
+            title: 'Tax Preparation',
+            price: '$100',
+            time: '',
+            details: '',
+            extra: '',
+            link: 'https://forms.gle/Jq27iT9sbDmRxGJ17'
+        },
+        {
+            title: 'Business Registration',
+            price: '$100',
+            time: '',
+            details: '',
+            extra: '',
+            link: 'https://forms.gle/Jq27iT9sbDmRxGJ17'
+        },
+        {
+            title: 'Business Tax Credits',
+            price: '$100',
+            time: '',
+            details: '',
+            extra: '',
+            link: 'https://forms.gle/Jq27iT9sbDmRxGJ17'
+        }
     ]
 };
 

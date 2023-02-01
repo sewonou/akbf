@@ -1,0 +1,38 @@
+.banner{
+    background: url('../../../assets/img/bg-img-1.jpg') center no-repeat;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.banner .overlay{
+    background-color: rgba(103, 26, 167, 0.8);
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    height: auto;
+    padding: 120px 0;
+}
+
+.banner .overlay .row{
+    margin: 30px 0;
+}
+
+.banner .overlay h2{
+    color: #fff;
+    font-size: 2rem;
+    margin: 30px 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.banner .overlay p{
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.banner .overlay .btn{
+    color: #fff;
+    font-size: 1.3rem;
+}

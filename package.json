@@ -1,6 +1,7 @@
 {
   "name": "akbf-website",
-  "version": "0.1.0",
+  /*"homepage": "https://akbusinessfinancial.com/",*/
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
